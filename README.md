@@ -14,3 +14,4 @@ h_fc1 是全连接层的输出，即提取的特征。
 
 reference：
 https://www.cnblogs.com/yangmang/p/7528935.html
+https://www.cnblogs.com/chuxiuhong/p/6132814.html
