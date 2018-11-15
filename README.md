@@ -8,5 +8,9 @@ else_data_80%_vec.txt ： 测试集标签
 cnn.py : 进行简单的卷积操作 然后进行特征提取
 
 
-卷积操作 这里只是做了一个示范，可以根据自己的实际情况进行修改层数等，这里特征提取
+卷积操作 这里只是做了一个示范，可以根据自己的实际情况进行修改层数等，这里特征提取主要参数不是后面的准确率
+是后面的 feature = sess.run(h_fc1, feed_dict={x: test_x}) 
+h_fc1 是全连接层的输出，即提取的特征。
 
+reference：
+https://www.cnblogs.com/yangmang/p/7528935.html
