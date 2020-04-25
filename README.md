@@ -2,7 +2,7 @@
 CNN 用来对向量进行特征提取，向量可以是文本的embedding、社交网络节点的embedding、图片等
 既可以做特征提取 也可以做分类。
 这里用Cora 这个数据集的embedding做训练集和测试集。。。
-cnn90_N2V_W100.txt ：训练数据集
+cnn90_N2V_W100.txt ：训练数据集 \n
 Cora_category.txt ：训练数据集标签
 else_data_80%.txt ：测试数据集
 else_data_80%_vec.txt ： 测试集标签
